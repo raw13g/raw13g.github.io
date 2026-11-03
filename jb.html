@@ -84,6 +84,12 @@
       body.fail #msg {
         display: block;
       }
+      body.done #msg {
+        display: block;
+        color: #7fd0a0;
+        font-weight: 700;
+        letter-spacing: 2px;
+      }
 
       /* ?log=1 -- the full step log, styled like the landing. */
       body.log #spin,
@@ -148,7 +154,7 @@
       <div id="out"></div>
     </div>
     <script type="module">
-      import "./jb.js?v=10";
+      import "./jb.js?v=19";
     </script>
   </body>
 </html>
